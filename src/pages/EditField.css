@@ -1,0 +1,41 @@
+/* EditField.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:  20px;
+  }
+  
+  .desciption {
+    margin-bottom:  20px;
+  }
+  
+  .desciption textarea {
+    width:  100%;
+    padding:  10px;
+    border:  1px solid #ccc;
+    border-radius:  4px;
+    resize: vertical; /* Allow vertical resizing only */
+  }
+  
+  .area {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom:  20px;
+  }
+  
+  .area label {
+    font-weight: bold;
+    margin-bottom:  5px;
+  }
+  
+  .area input {
+    width:  100%;
+    padding:  10px;
+    border:  1px solid #ccc;
+    border-radius:  4px;
+  }
+  

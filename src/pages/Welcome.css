@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Rubik-VariableFont_wght';
+  src: url('../assets/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+}
+.image img{
+    margin-top: 200px;
+    width: 50px;
+    height: 50px;
+    margin-left: 130px;
+}
+.title{
+  text-align: center;
+  font-family: 'Rubik-VariableFont_wght';
+  color: aliceblue;
+}
+.boutton button{
+  margin-left: 30px;
+  background-color: darkgreen;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.boutton1 button{
+  position: relative;
+  margin-left: 40px;
+  background-color: darkgreen;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 20px;
+}
+.page{
+  text-align: center;
+  width: 350px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: rgb(18, 112, 34);
+  box-shadow: 2px 4px black;
+  margin-bottom: 150px;
+}
+.welcome-image{
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.welcome-text .login{
+  color: rgb(255, 255, 255);
+  background-color:rgb(99, 168, 118);
+  width: 250px;
+  font-size: 20px;
+  height: 50px;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+.welcome-text .signin{
+  color: rgb(255, 255, 255);
+  background-color: rgb(99, 168, 118);
+  width: 250px;
+  font-size: 20px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-weight: 200;
+}
+.welcome-text {
+  font-weight: 200;
+  cursor: pointer;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+}
+
+ 
+
+
+  

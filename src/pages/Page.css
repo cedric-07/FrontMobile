@@ -1,0 +1,80 @@
+/* Create a new CSS file, for example, MyFields.css */
+
+/* Style for the card container */
+.my-fields-card {
+  width: 300px; /* Définir la largeur de la carte */
+  margin: 10px; /* Ajouter une marge autour de la carte */
+  border-radius: 10px; /* Ajouter une bordure arrondie à la carte */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajouter une ombre à la carte */
+}
+
+/* Styles for the add icon */
+.add-icon {
+  color: green; /* Couleur de l'icône */
+  border-radius: 150px;
+  margin-left: 10px; /* Ajouter un espacement à gauche de l'icône */
+}
+
+/* Style for the image */
+.my-fields-card img {
+  width: 100%;
+  height: 60%; /* Adjust the height of the image */
+  object-fit: cover; /* Cover the entire container */
+  border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
+}
+
+/* Style for the card header */
+.my-fields-card .ion-card-header {
+  padding: 10px;
+}
+
+/* Style for the card title */
+.my-fields-card .ion-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style for the card subtitle */
+.my-fields-card .ion-card-subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Style for the card content */
+.my-fields-card .ion-card-content {
+  padding: 10px;
+  height: 40%; /* Adjust the height of the content */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+}
+
+/* Style for the description */
+.my-fields-card .ion-card-content p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Example CSS styles */
+.test {
+  display: flex;
+  justify-content: space-between; /* Align items with space in between */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.test img {
+  width: 40px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.notification {
+  font-size: 24px; /* Adjust icon size as needed */
+  color: #333; /* Set icon color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+.cont .title{
+  color: black;
+  margin-top: 15px;
+  margin-right: 150px;
+}
+
+

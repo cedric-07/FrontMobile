@@ -1,0 +1,75 @@
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+.big-blog {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    /* position: relative; */
+}
+  
+  .forms {
+    text-align: center;
+  }
+  
+
+  .ion-title h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: #000000;
+  }
+  
+.circle{
+    margin-right: 10px;
+    color: #000000;
+  }
+  
+
+  .label {
+    margin-bottom: 15px;
+  }
+  
+  .email-bloc,
+  .password-blog {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+
+  .signup-button {
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+
+  .alert {
+    margin-top: 20px;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .big-blog {
+      max-width: 90%;
+    }
+  }
+  

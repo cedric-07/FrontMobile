@@ -1,0 +1,57 @@
+.input-border {
+  border: 1px solid ; /* Set border color */
+  background-color: rgb(45, 82, 76);
+  border-radius: 5px; /* Set border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  padding: 10px; /* Add padding for better appearance */
+  text-align: center;
+  color: aliceblue;
+}
+
+.description {
+  border: 1px solid ; /* Set border color */
+  background-color: rgb(45, 82, 76);
+  border-radius: 5px; /* Set border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  padding: 10px; /* Add padding for better appearance */
+  margin-top: 15px;
+  color: aliceblue;
+
+}
+.text{
+  color: black;
+}
+.ground{
+  border: 1px solid; /* Set border color */
+  background-color: rgb(45, 82, 76);
+  border-radius: 5px; /* Set border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  padding: 10px; /* Add padding for better appearance */
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+}
+
+/* InsertMap.css */
+
+.submit-button {
+  text-align: center; /* Center align the button */
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.cButton {
+  background-color: rgb(68, 157, 97); /* Set the background color */
+  color: white; /* Set the text color */
+  border: none; /* Remove the default border */
+  padding: 10px 20px; /* Add padding to the button */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  font-size: 16px; /* Set the font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.cButton:hover {
+  background-color: darkgray; /* Change background color on hover */
+}
+.back{
+  font-size: large;
+  margin-left: 15px;
+}

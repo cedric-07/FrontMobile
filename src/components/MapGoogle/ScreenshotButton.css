@@ -1,0 +1,54 @@
+/* ComponentDesign.module.css */
+
+/* Style for the container div */
+.container {
+    position: relative;
+    width:  100%;
+    height:  100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent scrollbars */
+  }
+
+  /* Style for the MapGoogle component */
+  .map-google {
+    width:  100%;
+    height:  100%;
+  }
+  
+  /* Style for the continue div */
+  .continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  20px;
+    border-top:  1px solid #000000;
+  }
+  
+  /* Style for the continue button */
+   .Button h2{
+    background-color: rgb(68, 157, 97); /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the default border */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+  
+  .Button:hover {
+    background-color: #08121d;
+  }
+  
+  /* Style for the IonRow and IonCol */
+  .ion-row,
+  .ion-col {
+    padding:  0;
+    margin:  0;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width:  768px) {
+    .continue {
+      padding:  10px;
+    }
+  }
+  

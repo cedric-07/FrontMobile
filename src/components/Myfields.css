@@ -1,0 +1,76 @@
+/* MyFields.css */
+
+/* Style for the card container */
+.my-fields-container {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+    justify-content: space-around; /* Distribute cards evenly along the main axis */
+  }
+  
+  /* Style for each individual card */
+  .my-fields-card {
+    flex:  1  0  300px; /* Allow cards to grow, but don't shrink below  300px */
+    margin:  10px; /* Add some margin between cards */
+    border-radius:  10px;
+    box-shadow:  0  4px  8px rgba(0,  0,  0,  0.1);
+    overflow: hidden;
+  }
+  
+  /* Style for the image */
+  .my-fields-card img {
+    width:  100%;
+    height:  60%; /* Adjust the height of the image */
+    object-fit: cover; /* Cover the entire container */
+    border-radius:  10px  10px  0  0; /* Rounded corners only at the top */
+  }
+  
+  /* Style for the card header */
+  .my-fields-card .ion-card-header {
+    padding:  10px;
+  }
+  
+  /* Style for the card title */
+  .my-fields-card .ion-card-title {
+    font-size:  18px;
+    font-weight: bold;
+    margin-bottom:  5px;
+  }
+
+  
+  /* Style for the card subtitle */
+  .my-fields-card .ion-card-subtitle {
+    font-size:  14px;
+    color: #888;
+  }
+  
+  /* Style for the card content */
+  .my-fields-card .ion-card-content {
+    padding:  10px;
+    height:  40%; /* Adjust the height of the content */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+  }
+  
+  /* Style for the description */
+  .my-fields-card .ion-card-content p {
+    font-size:  14px;
+    color: #333;
+  }
+  .big-blog {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    /* margin-bottom: 450px; */
+    margin-top: 50px;
+}
+
+ .add-icon {
+  color: rgb(0, 0, 0); /* Couleur de l'icône */
+  border-radius: 450px;
+}
+
+
+
+  

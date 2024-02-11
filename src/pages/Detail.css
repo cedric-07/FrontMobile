@@ -1,0 +1,85 @@
+
+ .titre h1{
+    color: rgb(0, 0, 0);
+ } 
+  .img-detail {
+    position: relative;
+  }
+  
+  .img-detail img {
+    height: 250px;
+    width: 380px;
+    border-radius: 15px;
+    display: block;
+    margin-top: 120px;
+    margin-left: 5px;
+    -webkit-filter: blur(2px);
+  }
+  
+  
+  .locale p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center precisely vertically */
+  }
+  
+  .detail p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    left: 70px;
+    bottom: 1%; /* Center vertically */
+    transform: translateY(-50%); /* Center precisely vertically */
+  }
+  .latitude p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    right: 110px;
+    bottom: 1%; /* Center vertically */
+    transform: translateY(-50%); /* Center precisely vertically */
+  }
+
+  .detail p,
+  .locale p {
+    margin-left: 15px;
+  }
+  
+  .locale p {
+    margin-left: 110px;
+    margin-top: 40px;
+  }
+  
+  .bloc h1 {
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+  
+  .local svg {
+    color: rgb(255, 255, 255);
+    width: 40px;
+    height: 60px;
+    margin-bottom: 160px;
+    margin-left: 220px;
+  }
+
+
+
+  .local {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center precisely vertically */
+  }
+  
+  
